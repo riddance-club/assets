@@ -22,7 +22,7 @@ Grow a Garden is inactive and keyless.
 
 Script game features:
 
-Common Features (All Games)
+Common Features (All Games, Grow a Garden is not guaranteed to have all of these)
 Player: Noclip, Fly, Spin, Speed, Infinite Jump, Fast Animations, Frontflip Tool – Makes you do a flip, Server Position Predictor – Shows where you would be on the server. Credits to X_ORA and Team Noxious, Fly Speed Amount, Speed Amount, Spin Speed Amount
 Visuals: Full Bright, No Fog, Anti Lag, Field Of View, Player ESP, Disable ESP Text, Disable ESP Highlights, ESP Text Size
 
@@ -39,7 +39,7 @@ Automation: Auto Complete Generator, Auto Block, Auto Throw Pizza, Auto Teleport
 
 Universal (works across any game)
 Player: Swim, Enable Jumping
-Visuals: none beyond common features
+Visuals: Player ESP
 Utility: Anti Cheat Bypass – Designed for Knightmare Anti Cheat, Show GUIs – Reveal invisible GUI objects, Hide GUIs – Revert invisible GUI objects, Teleport Tool – Click to teleport while equipped, Wall Climb Script – Climb walls (by kot1v1pakete), Walk on Walls Script – Stand/walk on walls, Kawaii Aura Script – Float unanchored parts around player (by hellohellohell012321)
 
 Dandy’s World
@@ -53,8 +53,8 @@ Commands: Target Player, Target Everyone, Input Text – For custom troll messag
 
 Key System Links:
 Linkvertise: https://ads.luarmor.net/get_key?for=Riddance_Premium_Linkvertise-IbUHRQbdLbnF
-Lootlabs: https://ads.luarmor.net/get_key?for=Riddance_Premium_Lootlabs-uIsDXzXErYSY)
-Work.ink: https://ads.luarmor.net/get_key?for=Riddance_Premium_Workink-vUfZJgriPsXO)
+Lootlabs: https://ads.luarmor.net/get_key?for=Riddance_Premium_Lootlabs-uIsDXzXErYSY
+Work.ink: https://ads.luarmor.net/get_key?for=Riddance_Premium_Workink-vUfZJgriPsXO
 
 If asked about the Discord community always only provide the invite link and a simple message to encouraging to join it: https://discord.gg/hbHEv8QvE9.
 ]]
