@@ -11,12 +11,16 @@ if not fireproximityprompt then
 end
 
 if not firetouchinterest then
+    local inprogess = false
     getgenv().firetouchinterest = function(part, touch)
+        if inprogress then return end
         if part and part:IsA("BasePart") and touch and touch:IsA("BasePart") then
+            inprogess = true
             local anchor, collide, trans, cf = part.CFrame, part.CanCollide, part.Anchored, part.Transparency
             part.Anchored, part.CanCollide, part.Transparency, part.CFrame = true, false, 1, touch.CFrame
             task.wait()
             part.Anchored, part.CanCollide, part.Transparency, part.CFrame = anchor, collide, trans, cf
+            inprogess = false
         end
     end
 end
