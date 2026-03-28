@@ -37,8 +37,22 @@
 			- Yueliang 5 (Lua compiler in Lua) - http://yueliang.luaforge.net/
 			- Moonshine (improved version of Yeuliang) - https://github.com/gamesys/moonshine
 ]]
-local compile = require(script:WaitForChild("Yueliang"))
-local createExecutable = require(script:WaitForChild("FiOne"))
+local function requireURL(url)
+    local suc, src = pcall(function()
+        return game:HttpGet(url)
+    end)
+    if not suc then
+        error("Failed to fetch module: " .. src)
+    end
+    local chunk, err = loadstring(src)
+    if not chunk then
+        error("Loadstring failed: " .. err)
+	end
+    return chunk
+end
+
+local compile = requireURL("https://raw.githubusercontent.com/riddance-club/assets/refs/heads/main/luavm/Yueliang.lua")
+local createExecutable = requireURL("https://raw.githubusercontent.com/riddance-club/assets/refs/heads/main/luavm/FiOne.lua")
 getfenv().script = nil
 
 return function(source, env)
