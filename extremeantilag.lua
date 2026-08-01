@@ -42,7 +42,7 @@ local function optimizeInstance(v)
 		v.Lifetime = NumberRange.new(0)
 	elseif v:IsA("Fire") or v:IsA("Smoke") or v:IsA("Sparkles") or v:IsA("PostEffect") or v:IsA("Light") or v:IsA("Highlight") or v:IsA("Atmosphere") or v:IsA("Clouds") or v:IsA("Beam") then
 		v.Enabled = false
-	elseif v:IsA("SurfaceAppearance") or v:IsA("Shirt") or v:IsA("Pants") then
+	elseif v:IsA("SurfaceAppearance") or v:IsA("Shirt") or v:IsA("Pants") or v:IsA("Accessory") then
 		v:Destroy()
 	elseif v:IsA("SpecialMesh") then
 		v.TextureId = ""
